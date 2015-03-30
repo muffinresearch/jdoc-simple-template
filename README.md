@@ -1,4 +1,4 @@
-The default template for JSDoc 3 uses: [the Taffy Database library](http://taffydb.com/) and the [Underscore Template library](http://documentcloud.github.com/underscore/#template).
+This simple template for JSDoc 3 uses: [the Taffy Database library](http://taffydb.com/) and the [Underscore Template library](http://documentcloud.github.com/underscore/#template).
 
 
 ## Generating Typeface Fonts
@@ -10,3 +10,10 @@ The default template uses the [OpenSans](https://www.google.com/fonts/specimen/O
 3. Either leave the subset drop-down as 'Western Latin (Default)', or, if we decide we need more glyphs, than change it to 'No Subsetting'.
 4. Click the 'DOWNLOAD @FONT-FACE KIT' button.
 5. For each typeface variant we plan to use, copy the 'eot', 'svg' and 'woff' files into the 'templates/default/static/fonts' directory.
+
+## How is this template different from the default?
+
+It features some minor customizations so it can:
+
+1. Be used standalone
+2. So it doesn't have duplicated `h1`s when using the JSDoc feature to import a project `README.md`.
