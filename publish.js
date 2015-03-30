@@ -1,7 +1,8 @@
 'use strict';
 
+/*global env: true */
+
 var doop = require('jsdoc/util/doop');
-var env = require('jsdoc/env');
 var fs = require('jsdoc/fs');
 var helper = require('jsdoc/util/templateHelper');
 var logger = require('jsdoc/util/logger');
